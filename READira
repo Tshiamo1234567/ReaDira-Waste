@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ReaDira Waste Management</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+body {
+    background: #0e1a14;
+    color: #e8f5e9;
+    line-height: 1.6;
+}
+
+header {
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+}
+
+header h1 {
+    color: #4CAF50;
+}
+
+nav a {
+    color: #e8f5e9;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.hero {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10%;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)),
+                url('https://images.unsplash.com/photo-1581092919534-6b8d49c2d0b0');
+    background-size: cover;
+}
+
+.hero h2 {
+    font-size: 48px;
+    max-width: 600px;
+}
+
+.hero p {
+    margin: 20px 0;
+    max-width: 500px;
+}
+
+.btn {
+    background: #4CAF50;
+    padding: 12px 25px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: fit-content;
+}
+
+section {
+    padding: 80px 10%;
+}
+
+.section-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #4CAF50;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #16241d;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    background: #1f3329;
+}
+
+footer {
+    background: #08110c;
+    padding: 40px 10%;
+    text-align: center;
+    font-size: 14px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>ReaDira</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <h2>A Clean Environment is Our Concern</h2>
+    <p>Leading waste and environmental management solutions in South Africa. Safe, efficient, and sustainable.</p>
+    <button class="btn">Get Started</button>
+</div>
+
+<section id="about">
+    <h3 class="section-title">About Us</h3>
+    <p>
+        ReaDira Waste Management is a full-service environmental company known for its technical expertise, safety commitment, and environmental protection.
+        We provide cost-effective and sustainable solutions tailored to client needs.
+    </p>
+
+    <br>
+
+    <p><strong>Founder:</strong> Wendy Thupana (10+ years experience in environmental management, agriculture & finance)</p>
+
+    <br>
+
+    <div class="grid">
+        <div class="card">
+            <h4>Mission</h4>
+            <p>Deliver high-quality environmental solutions while maintaining professional standards and client satisfaction.</p>
+        </div>
+
+        <div class="card">
+            <h4>Vision</h4>
+            <p>To be the leading environmental management company and employer of choice in the industry.</p>
+        </div>
+    </div>
+</section>
+
+<section id="services">
+    <h3 class="section-title">Our Services</h3>
+
+    <div class="grid">
+        <div class="card">
+            <h4>Environmental Impact Assessments</h4>
+            <p>Full public participation and strategic environmental evaluations.</p>
+        </div>
+
+        <div class="card">
+            <h4>Environmental Audits</h4>
+            <p>Audits across mining, energy, and private sectors.</p>
+        </div>
+
+        <div class="card">
+            <h4>Contamination Assessments</h4>
+            <p>Soil, groundwater, and pollution remediation solutions.</p>
+        </div>
+
+        <div class="card">
+            <h4>Waste Management</h4>
+            <p>Collection, transport, and disposal aligned with legislation.</p>
+        </div>
+
+        <div class="card">
+            <h4>Environmental Training</h4>
+            <p>Customized awareness and skills development programs.</p>
+        </div>
+
+        <div class="card">
+            <h4>EMS (ISO 14001)</h4>
+            <p>Development of environmental systems, policies, and strategies.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h3 class="section-title">Waste Management Services</h3>
+
+    <div class="grid">
+        <div class="card">
+            <h4>Recycling</h4>
+            <p>Paper, plastic, glass, metal, and cardboard recycling to reduce pollution.</p>
+        </div>
+
+        <div class="card">
+            <h4>Hazardous Waste</h4>
+            <p>Safe handling, storage, and disposal with trained staff and PPE.</p>
+        </div>
+
+        <div class="card">
+            <h4>Medical Waste</h4>
+            <p>Compliant disposal solutions for healthcare facilities.</p>
+        </div>
+
+        <div class="card">
+            <h4>Construction Waste</h4>
+            <p>Rubble crushing, recycling, and material recovery.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h3 class="section-title">Our Plant & Equipment</h3>
+
+    <div class="grid">
+        <div class="card">Crusher & Screen Plant</div>
+        <div class="card">Compactor Trucks</div>
+        <div class="card">Side Tipper Trucks</div>
+        <div class="card">Baling Machines</div>
+    </div>
+</section>
+
+<section id="contact">
+    <h3 class="section-title">Contact</h3>
+
+    <p><strong>Phone:</strong> 064 534 2697</p>
+    <p><strong>Email:</strong> Wendythupana@gmail.com</p>
+    <p><strong>Address:</strong> Unit 49, 49 Equestria Street, Equestria</p>
+    <p><strong>Website:</strong> www.ReaDira.co.za</p>
+</section>
+
+<footer>
+    <p>© 2026 ReaDira Waste Management (Pty) Ltd</p>
+    <p>Registration No: 2016/317191/07</p>
+</footer>
+
+</body>
+</html>
